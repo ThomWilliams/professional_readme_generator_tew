@@ -3,6 +3,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generateMarkdown = require('../utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -16,11 +17,6 @@ const questions = () => {
         type: 'input',
         name: 'description',
         message: 'Please describe your project:',
-    },
-    {
-        type: 'input',
-        name: 'table',
-        message: 'Table of Contents:',
     },
     {
         type: 'input',
@@ -60,18 +56,41 @@ const questions = () => {
     // Add list of options for licence with a badge
     {
         type: 'input',
-        name: 'licence',
         message: 'Please select a correct licence for your project:',
+        name: 'licence',
+        choices: ['Licence1', 'Licence2', 'Licence3'],
     },
 ])
 }
 
 
+// generate MD file
+
+
+
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = util.promisify(fs.writeFile);
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = () => {
+    questions() 
+    .then((answers) => writeToFile('README.md', generateMarkdown(answers)))
+    .then(() => console.log('Successfully written to README.md'))
+    .catch((err) => console.error(err));
+};
 
 // Function call to initialize app
 init();
+
+
+
+///////////////////////////
+
+// PSEUDOCODE // TO DO LIST
+
+// add functions in utils: generateMarkdown.js file
+// Add Badges and licence options to README ${} - how??
+// Updated licence options in array above
+// insert answers into output:READMETEST.md content
+// Video Walkthrough + Screenshots
