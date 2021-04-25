@@ -1,6 +1,6 @@
 # Project Title: Professional Readme Generator 
 
-  
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Table of Contents
   
@@ -10,7 +10,7 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  
+  * [License](#license)
   
   
   ## Description 
@@ -23,38 +23,38 @@
   
   To install the project please use the following package manager: 
   
-  node 
+  npm install 
   
   ## Usage
   
   Examples of Usage are as follows:
   
-  node clear 
+  download, install npm packages, create index.js 
   
   ## Contributing
   
   To contribute further on this project please:
   
-  wjwj 
+  n/a 
   
   ## Tests
   
   Please update tests as follows: 
   
-  d 
+  n/a 
   
   ## Questions
   
   For any further questions, please contact GitHub user: 
-  [d(https://www.github.com/d/) 
+  [ThomWilliams(https://www.github.com/ThomWilliams/) 
   
  
   
   Or for direct enquiries please email the follower developer address: 
-  d 
+  thomwilliams1990@gmail.com 
   
   
- 
+ ## License
   
-  None 
+  MIT 
 
