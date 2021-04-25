@@ -17,13 +17,13 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   
-  [Description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
-  [Licence](#licence)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [Licence](#licence)
   
   
   ## Description 
@@ -59,13 +59,12 @@ function generateMarkdown(data) {
   ## Questions
   
   For any further questions, please contact GitHub user: 
-  ${data.questions-github} 
+  ${data.github} 
   
-  GitHub Profile: 
-  ${data.questions-github-address} 
+ 
   
   Or for direct enquiries please email the follower developer address: 
-  ${data.questions-email} 
+  ${data.email} 
   
   
   ## Licence

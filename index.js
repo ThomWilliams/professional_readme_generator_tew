@@ -42,25 +42,21 @@ const questions = () => {
     },
     {
         type: 'input',
-        name: 'questions-github',
+        name: 'github',
         message: 'Please enter your GitHub Username:',
     },
+   
     {
         type: 'input',
-        name: 'questions-github-address',
-        message: 'Please enter your GitHub Address:',
-    },
-    {
-        type: 'input',
-        name: 'questions-email',
+        name: 'email',
         message: 'Please enter your email address:',
     },
     // Add list of options for licence with a badge
     {
-        type: 'input',
+        type: 'list',
         message: 'Please select a correct licence for your project:',
         name: 'licence',
-        choices: ['Licence1', 'Licence2', 'Licence3'],
+        choices: ['None', 'MIT', 'Apache-2.0'],
     },
 ])
 }
