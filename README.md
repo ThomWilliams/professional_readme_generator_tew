@@ -1,6 +1,6 @@
 # Project Title: Professional Readme Generator 
 
-  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Table of Contents
   
@@ -17,19 +17,19 @@
   
   A brief description of the project is as follows: 
   
-  Generates a professional readme.md file 
+  A professional readme generator that uses node to create a readme markdown file for your projects. 
   
   ## Installation
   
   To install the project please use the following package manager: 
   
-  npm install 
+  enter 'npm install' in the terminal 
   
   ## Usage
   
   Examples of Usage are as follows:
   
-  download, install npm packages, create index.js 
+  Download, install NPM packages, enter node index.js 
   
   ## Contributing
   
@@ -57,4 +57,14 @@
  ## License
   
   MIT 
+
+  ## Video + Screenshot
+  
+  [VIDEO DEMO](https://drive.google.com/file/d/1bDAGLDqIS2NkIUhAODIZ7IToAvi5m1-U/view?usp=sharing)
+
+  ![Screenshot of the example Readme](../Screenshots_Video/Readme_example_screenshot.png)
+
+  
+
+  
 
