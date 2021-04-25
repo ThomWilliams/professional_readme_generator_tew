@@ -1,9 +1,11 @@
 // TODO: Include packages needed for this application
 
-const inquirer = require('inquirer');
+const inquirer = require('./node_modules/inquirer');
 const fs = require('fs');
 const util = require('util');
-const generateMarkdown = require('../utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
+
+
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -64,9 +66,6 @@ const questions = () => {
 }
 
 
-// generate MD file
-
-
 
 
 // TODO: Create a function to write README file
@@ -75,7 +74,7 @@ const writeToFile = util.promisify(fs.writeFile);
 // TODO: Create a function to initialize app
 const init = () => {
     questions() 
-    .then((answers) => writeToFile('README.md', generateMarkdown(answers)))
+    .then((data) => writeToFile('README.md', generateMarkdown(data)))
     .then(() => console.log('Successfully written to README.md'))
     .catch((err) => console.error(err));
 };
@@ -94,3 +93,4 @@ init();
 // Updated licence options in array above
 // insert answers into output:READMETEST.md content
 // Video Walkthrough + Screenshots
+// How should it look I submit - should I delete files?
