@@ -1,59 +1,60 @@
-# Project Title: a 
+# Project Title: Read Me Gen 
 
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Table of Contents
   
-  [Description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [Questions](#questions)
-  [Licence](#licence)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [Licence](#licence)
   
   
   ## Description 
   
   A brief description of the project is as follows: 
   
-  a 
+  Generates a readme depending on what you are building 
   
   ## Installation
   
   To install the project please use the following package manager: 
   
-  a 
+  npm i  
   
   ## Usage
   
   Examples of Usage are as follows:
   
-  a 
+  download, install np mpackages, node index 
   
   ## Contributing
   
   To contribute further on this project please:
   
-  a 
+  no 
   
   ## Tests
   
   Please update tests as follows: 
   
-  a 
+  n/a 
   
   ## Questions
   
   For any further questions, please contact GitHub user: 
-  a 
+  github 
   
  
   
   Or for direct enquiries please email the follower developer address: 
-  a 
+  email 
   
   
-  ## Licence
+ ## Licence
   
-  None 
+  MIT 
 
