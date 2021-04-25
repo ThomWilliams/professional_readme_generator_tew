@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// packages needed for this application
 
 const inquirer = require('./node_modules/inquirer');
 const fs = require('fs');
@@ -7,7 +7,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 
 
-// TODO: Create an array of questions for user input
+// Creates array of questions for user input
 const questions = () => {
  return inquirer.prompt([
     {
@@ -51,23 +51,19 @@ const questions = () => {
         name: 'email',
         message: 'Please enter your email address:',
     },
-    // Add list of options for licence with a badge
     {
         type: 'list',
-        message: 'Please select a correct licence for your project:',
-        name: 'licence',
+        message: 'Please select a correct license for your project:',
+        name: 'license',
         choices: ['None', 'MIT', 'Apache-2.0'],
     },
 ])
 }
 
-
-
-
-// TODO: Create a function to write README file
+// writes README file
 const writeToFile = util.promisify(fs.writeFile);
 
-// TODO: Create a function to initialize app
+// Function initializes app
 const init = () => {
     questions() 
     .then((data) => writeToFile('README.md', generateMarkdown(data)))
@@ -79,14 +75,3 @@ const init = () => {
 init();
 
 
-
-///////////////////////////
-
-// PSEUDOCODE // TO DO LIST
-
-// add functions in utils: generateMarkdown.js file
-// Add Badges and licence options to README ${} - how??
-// Updated licence options in array above
-// insert answers into output:READMETEST.md content
-// Video Walkthrough + Screenshots
-// How should it look I submit - should I delete files?
