@@ -75,7 +75,7 @@ ${renderLicenseBadge(data.licence)}
   ## Questions
   
   For any further questions, please contact GitHub user: 
-  ${data.github} 
+  [${data.github}(https://www.github.com/${data.github}/) 
   
  
   
